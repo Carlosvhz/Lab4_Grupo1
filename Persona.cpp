@@ -3,10 +3,10 @@
 
 using namespace std;
 
-Persona::Persona(int clave, string nombre){
-	this -> clave = clave;
-	this -> nombre = nombre;
-	this -> puntuacion = 0;
+Persona::Persona(int pclave, string pnombre){
+	clave = clave;
+	nombre = nombre;
+	puntuacion = 0;
 }
 	
 //getters
@@ -25,14 +25,14 @@ int Persona::getClave(){
 
 //setters
 
-void Persona::setPuntuacion(int puntuacion){
-	this -> puntuacion = puntuacion;
+void Persona::setPuntuacion(int ppuntuacion){
+	 puntuacion = ppuntuacion;
 }
 
-void Persona::setNombre(string nombre){
-	this -> nombre = nombre;
+void Persona::setNombre(string pnombre){
+	nombre = pnombre;
 }
 
-void Persona::setClave(int clave){
-	this -> clave = clave;
+void Persona::setClave(int pclave){
+	clave = clave;
 }

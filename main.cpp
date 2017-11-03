@@ -1,6 +1,7 @@
+#include <ncurses.h>
 #include <string>
 #include <vector>
-#include "Persona"
+#include "Persona.h"
 
 int main(){
 

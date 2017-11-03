@@ -9,6 +9,7 @@ class minesweeper{
 	public:
 		minesweeper(int n,);
 		int** crearmatriz(int ni);
+		int** llenarmatriz();
 };
 
 #endif

@@ -6,17 +6,37 @@
 int main(){
 	vector<Persona> usuarios;
 	initscr();
-	WINDOW* w = newwin(50,50,10,10);	
-	
+	WINDOW* minesweeper = newwin(50,50,10,10);	
+	int opcion=0, posicion=1;
 
-	//emulacion
-	do{
+	while(opcion==0){
+		printw("1. Para jugar ");
+		move(posicion,0);
+		printw("2. Para ingresar ");
+		move(posicion++,0);
+		printw("Ingrese puto: ");
+		opcion = getch()-48;
 			
-	}while();	
+		switch(opcion){
+			case 1:
+				//Llamada al metodo para jugar.
+			break;
+
+			case 2:
+				
+			break;
+				move(posicion+2,0);
+				printw("####### No existe ejercicio ######");
+			default:
+		}
+		move(posicion++,0);
+		printw("Continuar?[0]: ");
+		opcion = getch()-48;	
+	}
+	move(1,0);
+	printw("Adios :v");
+	getch();
+	endwin();
 
 	return 0;
-}
-
-void inicio(){
-	
 }

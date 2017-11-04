@@ -22,7 +22,7 @@ class Persona{
 		//Setters
 		void setPuntuacion(int puntuacion);
 		void setClave(int clave);
-		string setNombre(string nombre);
+		void setNombre(string nombre);
 };
 
 #endif

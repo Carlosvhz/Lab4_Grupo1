@@ -1,5 +1,5 @@
-#ifndef 
-#define 
+#ifndef MINESWEEPER_H
+#define MINESWEEPER_H
 
 class minesweeper{
 	
@@ -7,7 +7,7 @@ class minesweeper{
 		int n;
 		int**matriz;
 	public:
-		minesweeper(int n,);
+		minesweeper(int n);
 		int** crearmatriz(int ni);
 		int** llenarmatriz();
 };

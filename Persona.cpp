@@ -4,8 +4,8 @@
 using namespace std;
 
 Persona::Persona(int pclave, string pnombre){
-	clave = clave;
-	nombre = nombre;
+	clave = pclave;
+	nombre = pnombre;
 	puntuacion = 0;
 }
 	
@@ -15,7 +15,7 @@ int Persona::getPuntuacion(){
 	return puntuacion;
 }
 
-int Persona::getNombre(){
+string Persona::getNombre(){
 	return nombre;
 }
 
